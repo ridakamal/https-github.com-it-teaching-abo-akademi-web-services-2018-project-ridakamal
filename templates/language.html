@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+</head>
+<body>
+
+<div class="projectTitle">
+    <h3>
+        Yet Another Action Site for Abo Akademi University
+    </h3>
+    <hr>
+    <br>
+    <h2>
+       Choose Language
+    </h2>
+</div>
+
+<hr>
+<div class="linkClass">
+
+     {% if sign == 0 %}
+                <ul>
+
+                    <li><a href="/register/">Register</a></li>
+                    <li><a href="/login/">Login</a></li>
+
+
+
+                </ul>
+    {% endif %}
+
+    {% if sign == 1 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                     <li><a href="/convertCurrency/">Currency</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+    {% if sign == 2 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+<hr>
+<br>
+<br>
+          <div>
+
+
+              <form action="/changeLanguage/" method="post">
+                  {% csrf_token %}
+
+                    <div>
+                        <select name="codeForLanguage" id="lang" class="form-control">
+                                           <option value="en">English</option>
+                                            <option value="sv">Swedish</option>
+                                           <option value="fi">Finnish</option>
+                                       </select>
+
+                        <br>
+                        <br>
+                         <button type="submit">Submit</button>
+                    </div>
+              </form>
+
+
+
+                           </div>
+
+
+</div>
+
+
+
+<div class="projectFooter">
+   <h4>
+       By Rida Kamal
+</h4>
+</div>
+</body>
+</html>

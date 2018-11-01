@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+</head>
+<body>
+
+<div class="projectTitle">
+   <h3>
+        Yet Another Action Site for Abo Akademi University
+    </h3>
+    <hr>
+    <br>
+    <h2>
+
+    </h2>
+</div>
+
+<hr>
+<div>
+
+
+</div>
+
+<form action="/searchAndBrowse/" name="" method="post">
+     {% csrf_token %}
+
+
+    Auction Title:  <input type="text"  id="searching"  name="search" placeholder="Auction Name" >
+
+    <button type="submit">Submit</button>
+</form>
+<hr>
+
+
+
+<a href="/viewAllAuctions/">Cancel</a>
+
+<div class="projectFooter">
+    By Rida Kamal
+</div>
+</body>
+</html>

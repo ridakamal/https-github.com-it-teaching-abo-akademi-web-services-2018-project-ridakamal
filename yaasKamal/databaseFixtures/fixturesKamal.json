@@ -1,0 +1,1608 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$fsUkrroYQRbw$1MiNIyai/lnJc6v/VVuDxS+IidpSFvwYJVIaQkihED8=",
+    "last_login": "2018-10-31T11:07:59.979Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@abo.fi",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2018-10-28T16:38:23.249Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$SHXmDFmqY6Vu$ktTmJvtXL733vxzfSfyLhPVF/wflCzOC8pb4xL+v+OA=",
+    "last_login": "2018-10-31T17:56:35.554Z",
+    "is_superuser": false,
+    "username": "abo",
+    "first_name": "",
+    "last_name": "",
+    "email": "abo@abo.fi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-10-28T19:37:54.509Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$ejhWzaGFAHyY$CH8BhcQGbc6qwJaJXMO9jFWOmFYFBxNygz6fbgI+Z78=",
+    "last_login": "2018-10-28T23:31:16.305Z",
+    "is_superuser": false,
+    "username": "rida",
+    "first_name": "",
+    "last_name": "",
+    "email": "rida@abo.fi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-10-28T22:56:14.413Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$yOjAtHTESCcL$rI1FY4V1g/B8Fwq9TGnSlEIG9aV9//j+8RuSHws4k9c=",
+    "last_login": "2018-10-31T17:25:58.955Z",
+    "is_superuser": false,
+    "username": "pepsi",
+    "first_name": "",
+    "last_name": "",
+    "email": "pepsi123@abo.fi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-10-31T17:24:32.949Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 1,
+  "fields": {
+    "title": "Cell Phone",
+    "description": "                                                Samsung S5\r\n                                            ",
+    "creationDate": "2018-10-29T01:02:45.589Z",
+    "aLock": "open",
+    "auctionOwner": "rida",
+    "minPrice": 50.0,
+    "deadline": "2018-10-31T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 2,
+  "fields": {
+    "title": "External Charger",
+    "description": "cellphone charger any phone!",
+    "creationDate": "2018-10-29T01:06:27.705Z",
+    "aLock": "open",
+    "auctionOwner": "rida",
+    "minPrice": 36.0,
+    "deadline": "2018-11-01T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 3,
+  "fields": {
+    "title": "Car Sale",
+    "description": "Honda Civic 2000",
+    "creationDate": "2018-10-29T01:30:29.340Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 600.0,
+    "deadline": "2018-11-07T00:00:00Z",
+    "adminBanned": true
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 4,
+  "fields": {
+    "title": "Winter Shoe",
+    "description": "Selling Winter Shoe Nike Brand",
+    "creationDate": "2018-10-31T19:27:37.995Z",
+    "aLock": "open",
+    "auctionOwner": "pepsi",
+    "minPrice": 50.0,
+    "deadline": "2018-11-02T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 5,
+  "fields": {
+    "title": "Summer Shoes",
+    "description": "Nike Flex 2",
+    "creationDate": "2018-10-31T19:34:37.732Z",
+    "aLock": "open",
+    "auctionOwner": "pepsi",
+    "minPrice": 70.0,
+    "deadline": "2018-11-07T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 6,
+  "fields": {
+    "title": "External Charger 2",
+    "description": "External Charger for sale made by Sony!",
+    "creationDate": "2018-10-31T19:36:42.451Z",
+    "aLock": "open",
+    "auctionOwner": "pepsi",
+    "minPrice": 99.0,
+    "deadline": "2018-11-07T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 7,
+  "fields": {
+    "title": "Winter Shoe 2",
+    "description": "asas",
+    "creationDate": "2018-10-31T19:40:08.641Z",
+    "aLock": "open",
+    "auctionOwner": "pepsi",
+    "minPrice": 60.0,
+    "deadline": "2018-11-29T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 8,
+  "fields": {
+    "title": "Car Sale 2 ",
+    "description": "dssdsds",
+    "creationDate": "2018-10-31T20:46:58.338Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 66.0,
+    "deadline": "2018-11-16T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 9,
+  "fields": {
+    "title": "Car Sale 3",
+    "description": "dssdsds",
+    "creationDate": "2018-10-31T20:47:52.437Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 66.0,
+    "deadline": "2018-11-16T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 10,
+  "fields": {
+    "title": "Car Sale 6",
+    "description": "dssdsds",
+    "creationDate": "2018-10-31T20:49:40.801Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 66.0,
+    "deadline": "2018-11-16T00:00:00Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 11,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 1)",
+    "description": "('Auction Details:  ', 1)",
+    "creationDate": "2018-10-31T23:53:05.331Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 12,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 2)",
+    "description": "('Auction Details:  ', 2)",
+    "creationDate": "2018-10-31T23:53:05.343Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 13,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 3)",
+    "description": "('Auction Details:  ', 3)",
+    "creationDate": "2018-10-31T23:53:05.350Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 14,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 4)",
+    "description": "('Auction Details:  ', 4)",
+    "creationDate": "2018-10-31T23:53:05.356Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 15,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 5)",
+    "description": "('Auction Details:  ', 5)",
+    "creationDate": "2018-10-31T23:53:05.361Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 16,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 6)",
+    "description": "('Auction Details:  ', 6)",
+    "creationDate": "2018-10-31T23:53:05.368Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 17,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 7)",
+    "description": "                                                ('Auction Details:  ', 7)\r\n                           xzzxzx                 ",
+    "creationDate": "2018-10-31T23:53:05.376Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 18,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 8)",
+    "description": "('Auction Details:  ', 8)",
+    "creationDate": "2018-10-31T23:53:05.382Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 19,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 9)",
+    "description": "('Auction Details:  ', 9)",
+    "creationDate": "2018-10-31T23:53:05.390Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 20,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 10)",
+    "description": "('Auction Details:  ', 10)",
+    "creationDate": "2018-10-31T23:53:05.397Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 21,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 11)",
+    "description": "('Auction Details:  ', 11)",
+    "creationDate": "2018-10-31T23:53:05.406Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 22,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 12)",
+    "description": "('Auction Details:  ', 12)",
+    "creationDate": "2018-10-31T23:53:05.416Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 23,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 13)",
+    "description": "('Auction Details:  ', 13)",
+    "creationDate": "2018-10-31T23:53:05.424Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 24,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 14)",
+    "description": "('Auction Details:  ', 14)",
+    "creationDate": "2018-10-31T23:53:05.433Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 25,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 15)",
+    "description": "('Auction Details:  ', 15)",
+    "creationDate": "2018-10-31T23:53:05.443Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 26,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 16)",
+    "description": "('Auction Details:  ', 16)",
+    "creationDate": "2018-10-31T23:53:05.452Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 27,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 17)",
+    "description": "('Auction Details:  ', 17)",
+    "creationDate": "2018-10-31T23:53:05.463Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 28,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 18)",
+    "description": "('Auction Details:  ', 18)",
+    "creationDate": "2018-10-31T23:53:05.472Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 29,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 19)",
+    "description": "('Auction Details:  ', 19)",
+    "creationDate": "2018-10-31T23:53:05.481Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 30,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 20)",
+    "description": "('Auction Details:  ', 20)",
+    "creationDate": "2018-10-31T23:53:05.490Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 31,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 21)",
+    "description": "('Auction Details:  ', 21)",
+    "creationDate": "2018-10-31T23:53:05.500Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 32,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 22)",
+    "description": "('Auction Details:  ', 22)",
+    "creationDate": "2018-10-31T23:53:05.508Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 33,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 23)",
+    "description": "('Auction Details:  ', 23)",
+    "creationDate": "2018-10-31T23:53:05.517Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 34,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 24)",
+    "description": "('Auction Details:  ', 24)",
+    "creationDate": "2018-10-31T23:53:05.526Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 35,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 25)",
+    "description": "('Auction Details:  ', 25)",
+    "creationDate": "2018-10-31T23:53:05.535Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 36,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 26)",
+    "description": "('Auction Details:  ', 26)",
+    "creationDate": "2018-10-31T23:53:05.565Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 37,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 27)",
+    "description": "('Auction Details:  ', 27)",
+    "creationDate": "2018-10-31T23:53:05.589Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 38,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 28)",
+    "description": "('Auction Details:  ', 28)",
+    "creationDate": "2018-10-31T23:53:05.601Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 39,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 29)",
+    "description": "('Auction Details:  ', 29)",
+    "creationDate": "2018-10-31T23:53:05.610Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 40,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 30)",
+    "description": "('Auction Details:  ', 30)",
+    "creationDate": "2018-10-31T23:53:05.617Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 41,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 31)",
+    "description": "('Auction Details:  ', 31)",
+    "creationDate": "2018-10-31T23:53:05.623Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 42,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 32)",
+    "description": "('Auction Details:  ', 32)",
+    "creationDate": "2018-10-31T23:53:05.628Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 43,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 33)",
+    "description": "('Auction Details:  ', 33)",
+    "creationDate": "2018-10-31T23:53:05.636Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 44,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 34)",
+    "description": "('Auction Details:  ', 34)",
+    "creationDate": "2018-10-31T23:53:05.641Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 45,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 35)",
+    "description": "('Auction Details:  ', 35)",
+    "creationDate": "2018-10-31T23:53:05.647Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 46,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 36)",
+    "description": "('Auction Details:  ', 36)",
+    "creationDate": "2018-10-31T23:53:05.653Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 47,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 37)",
+    "description": "('Auction Details:  ', 37)",
+    "creationDate": "2018-10-31T23:53:05.659Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 48,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 38)",
+    "description": "('Auction Details:  ', 38)",
+    "creationDate": "2018-10-31T23:53:05.664Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 49,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 39)",
+    "description": "('Auction Details:  ', 39)",
+    "creationDate": "2018-10-31T23:53:05.669Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 50,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 40)",
+    "description": "('Auction Details:  ', 40)",
+    "creationDate": "2018-10-31T23:53:05.673Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 51,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 41)",
+    "description": "('Auction Details:  ', 41)",
+    "creationDate": "2018-10-31T23:53:05.680Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 52,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 42)",
+    "description": "('Auction Details:  ', 42)",
+    "creationDate": "2018-10-31T23:53:05.688Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 53,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 43)",
+    "description": "('Auction Details:  ', 43)",
+    "creationDate": "2018-10-31T23:53:05.694Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 54,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 44)",
+    "description": "('Auction Details:  ', 44)",
+    "creationDate": "2018-10-31T23:53:05.700Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 55,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 45)",
+    "description": "('Auction Details:  ', 45)",
+    "creationDate": "2018-10-31T23:53:05.704Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 56,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 46)",
+    "description": "('Auction Details:  ', 46)",
+    "creationDate": "2018-10-31T23:53:05.709Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 57,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 47)",
+    "description": "('Auction Details:  ', 47)",
+    "creationDate": "2018-10-31T23:53:05.713Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 58,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 48)",
+    "description": "('Auction Details:  ', 48)",
+    "creationDate": "2018-10-31T23:53:05.719Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 59,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 49)",
+    "description": "('Auction Details:  ', 49)",
+    "creationDate": "2018-10-31T23:53:05.724Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 888.0,
+    "deadline": "2018-11-05T23:53:05.326Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 60,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 1)",
+    "description": "('Auction Details:  ', 1)",
+    "creationDate": "2018-10-31T23:58:31.167Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 61,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 2)",
+    "description": "('Auction Details:  ', 2)",
+    "creationDate": "2018-10-31T23:58:31.176Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 62,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 3)",
+    "description": "('Auction Details:  ', 3)",
+    "creationDate": "2018-10-31T23:58:31.184Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 63,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 4)",
+    "description": "('Auction Details:  ', 4)",
+    "creationDate": "2018-10-31T23:58:31.190Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 64,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 5)",
+    "description": "('Auction Details:  ', 5)",
+    "creationDate": "2018-10-31T23:58:31.198Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 65,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 6)",
+    "description": "('Auction Details:  ', 6)",
+    "creationDate": "2018-10-31T23:58:31.205Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 66,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 7)",
+    "description": "('Auction Details:  ', 7)",
+    "creationDate": "2018-10-31T23:58:31.212Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 67,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 8)",
+    "description": "('Auction Details:  ', 8)",
+    "creationDate": "2018-10-31T23:58:31.220Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 68,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 9)",
+    "description": "('Auction Details:  ', 9)",
+    "creationDate": "2018-10-31T23:58:31.226Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 69,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 10)",
+    "description": "('Auction Details:  ', 10)",
+    "creationDate": "2018-10-31T23:58:31.234Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 70,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 11)",
+    "description": "('Auction Details:  ', 11)",
+    "creationDate": "2018-10-31T23:58:31.240Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 71,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 12)",
+    "description": "('Auction Details:  ', 12)",
+    "creationDate": "2018-10-31T23:58:31.247Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 72,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 13)",
+    "description": "('Auction Details:  ', 13)",
+    "creationDate": "2018-10-31T23:58:31.254Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 73,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 14)",
+    "description": "('Auction Details:  ', 14)",
+    "creationDate": "2018-10-31T23:58:31.261Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 74,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 15)",
+    "description": "('Auction Details:  ', 15)",
+    "creationDate": "2018-10-31T23:58:31.269Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 75,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 16)",
+    "description": "('Auction Details:  ', 16)",
+    "creationDate": "2018-10-31T23:58:31.274Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 76,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 17)",
+    "description": "('Auction Details:  ', 17)",
+    "creationDate": "2018-10-31T23:58:31.281Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 77,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 18)",
+    "description": "('Auction Details:  ', 18)",
+    "creationDate": "2018-10-31T23:58:31.287Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 78,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 19)",
+    "description": "('Auction Details:  ', 19)",
+    "creationDate": "2018-10-31T23:58:31.295Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 79,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 20)",
+    "description": "('Auction Details:  ', 20)",
+    "creationDate": "2018-10-31T23:58:31.304Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 80,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 21)",
+    "description": "('Auction Details:  ', 21)",
+    "creationDate": "2018-10-31T23:58:31.314Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 81,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 22)",
+    "description": "('Auction Details:  ', 22)",
+    "creationDate": "2018-10-31T23:58:31.322Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 82,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 23)",
+    "description": "('Auction Details:  ', 23)",
+    "creationDate": "2018-10-31T23:58:31.331Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 83,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 24)",
+    "description": "('Auction Details:  ', 24)",
+    "creationDate": "2018-10-31T23:58:31.341Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 84,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 25)",
+    "description": "('Auction Details:  ', 25)",
+    "creationDate": "2018-10-31T23:58:31.351Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 85,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 26)",
+    "description": "('Auction Details:  ', 26)",
+    "creationDate": "2018-10-31T23:58:31.361Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 86,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 27)",
+    "description": "('Auction Details:  ', 27)",
+    "creationDate": "2018-10-31T23:58:31.369Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 87,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 28)",
+    "description": "('Auction Details:  ', 28)",
+    "creationDate": "2018-10-31T23:58:31.387Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 88,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 29)",
+    "description": "('Auction Details:  ', 29)",
+    "creationDate": "2018-10-31T23:58:31.396Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 89,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 30)",
+    "description": "('Auction Details:  ', 30)",
+    "creationDate": "2018-10-31T23:58:31.406Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 90,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 31)",
+    "description": "('Auction Details:  ', 31)",
+    "creationDate": "2018-10-31T23:58:31.414Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 91,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 32)",
+    "description": "('Auction Details:  ', 32)",
+    "creationDate": "2018-10-31T23:58:31.424Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 92,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 33)",
+    "description": "('Auction Details:  ', 33)",
+    "creationDate": "2018-10-31T23:58:31.432Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 93,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 34)",
+    "description": "('Auction Details:  ', 34)",
+    "creationDate": "2018-10-31T23:58:31.441Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 94,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 35)",
+    "description": "('Auction Details:  ', 35)",
+    "creationDate": "2018-10-31T23:58:31.450Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 95,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 36)",
+    "description": "('Auction Details:  ', 36)",
+    "creationDate": "2018-10-31T23:58:31.459Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 96,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 37)",
+    "description": "('Auction Details:  ', 37)",
+    "creationDate": "2018-10-31T23:58:31.468Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 97,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 38)",
+    "description": "('Auction Details:  ', 38)",
+    "creationDate": "2018-10-31T23:58:31.477Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 98,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 39)",
+    "description": "('Auction Details:  ', 39)",
+    "creationDate": "2018-10-31T23:58:31.485Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 99,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 40)",
+    "description": "('Auction Details:  ', 40)",
+    "creationDate": "2018-10-31T23:58:31.494Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 100,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 41)",
+    "description": "('Auction Details:  ', 41)",
+    "creationDate": "2018-10-31T23:58:31.505Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 101,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 42)",
+    "description": "('Auction Details:  ', 42)",
+    "creationDate": "2018-10-31T23:58:31.516Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 102,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 43)",
+    "description": "('Auction Details:  ', 43)",
+    "creationDate": "2018-10-31T23:58:31.524Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 103,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 44)",
+    "description": "('Auction Details:  ', 44)",
+    "creationDate": "2018-10-31T23:58:31.533Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 104,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 45)",
+    "description": "('Auction Details:  ', 45)",
+    "creationDate": "2018-10-31T23:58:31.542Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 105,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 46)",
+    "description": "('Auction Details:  ', 46)",
+    "creationDate": "2018-10-31T23:58:31.550Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 106,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 47)",
+    "description": "('Auction Details:  ', 47)",
+    "creationDate": "2018-10-31T23:58:31.559Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 107,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 48)",
+    "description": "('Auction Details:  ', 48)",
+    "creationDate": "2018-10-31T23:58:31.568Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.auction",
+  "pk": 108,
+  "fields": {
+    "title": "('Database Fixture Auction:  ', 49)",
+    "description": "('Auction Details:  ', 49)",
+    "creationDate": "2018-10-31T23:58:31.576Z",
+    "aLock": "open",
+    "auctionOwner": "abo",
+    "minPrice": 518.0,
+    "deadline": "2018-11-05T23:58:31.162Z",
+    "adminBanned": false
+  }
+},
+{
+  "model": "yaasKamal.bids",
+  "pk": 1,
+  "fields": {
+    "auctionOwner": "rida",
+    "auctionKey": 1,
+    "bidOwner": "admin",
+    "price": 51.0,
+    "createDate": "2018-10-31T13:35:33.215Z"
+  }
+},
+{
+  "model": "yaasKamal.bids",
+  "pk": 2,
+  "fields": {
+    "auctionOwner": "pepsi",
+    "auctionKey": 4,
+    "bidOwner": "abo",
+    "price": 50.01,
+    "createDate": "2018-10-31T19:57:19.732Z"
+  }
+}
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+</head>
+<body>
+
+<div class="projectTitle">
+   <h3>
+        Yet Another Action Site for Abo Akademi University
+    </h3>
+    <hr>
+    <br>
+    <h2>
+
+    </h2>
+</div>
+
+<hr>
+<div>
+
+</div>
+
+<form action="/editProfile/" name="" method="post">
+     {% csrf_token %}
+
+    Email:  <input type="email"  id="email"  name="email" value="{{ data.email }}" >
+   <br>
+    OldPassword:  <input type="password"  id="oldPwd"  name="oldPwd"  >
+    <br>
+    New Password:  <input type="password"  id="newPwd"  name="newPwd"  >
+    <br>
+    <button type="submit">Submit</button>
+</form>
+<hr>
+
+
+
+<a href="/viewAllAuctions/">Cancel</a>
+
+<div class="projectFooter">
+    By Rida Kamal
+</div>
+</body>
+</html>

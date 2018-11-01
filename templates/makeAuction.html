@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+
+    <script>
+
+      function confirmationMessage() {
+       if (confirm('Are you sure to Create a New Auction?')) {
+           document.formForAuctionCreate.submit();
+       } else {
+           return false;
+       }
+    }
+    </script>
+</head>
+<body>
+
+<div class="projectTitle">
+   <h3>
+        Yet Another Action Site for Abo Akademi University
+    </h3>
+    <hr>
+    <br>
+    <h2>
+        Create Auction
+    </h2>
+</div>
+
+<hr>
+<div>
+
+
+</div>
+
+<form action="/createAuction/" name="formForAuctionCreate" method="post">
+     {% csrf_token %}
+
+    Title:  <input type="text"  id="title" placeholder="Title" name="title">
+    <br>
+    Description:  <textarea   id="descrip" placeholder="Description" name="description"></textarea>
+    <br>
+    Min Price:   <input type="number"  id="minPrice" placeholder="Min Price" name="minPrice">
+    <br>
+    Date:   <input type="date"  id="dates"  name="dates">
+    <br>
+    <hr>
+
+</form>
+
+  <button onclick="confirmationMessage()">Submit</button>
+<hr>
+
+
+
+<a href="/viewAllAuctions/">Cancel</a>
+
+<div class="projectFooter">
+    By Rida Kamal
+</div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}{% load i18n %}
+
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+</head>
+<body>
+
+<div class="projectTitle">
+    <h3>
+        {% trans  "Yet Another Action Site for Abo Akademi University" %}
+    </h3>
+    <hr>
+    <br>
+    <h2>
+      {% trans  "All Auctions of Yet Another Auction Site" %}
+    </h2>
+</div>
+
+<hr>
+<div class="linkClass">
+
+    {% if sign == 0 %}
+                <ul>
+
+                    <li><a href="/register/">Register</a></li>
+                     <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                    <li><a href="/login/">Login</a></li>
+
+
+
+                </ul>
+    {% endif %}
+
+    {% if sign == 1 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                     <li><a href="/convertCurrency/">Currency</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                    <li><a href="/createDbFixtures/">Create Database Fixtures</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+    {% if sign == 2 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                    <li><a href="/convertCurrency/">Currency</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                    <li><a href="/createDbFixtures/">Create Database Fixtures</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+</div>
+<br>
+<br>
+<hr>
+ <div>
+                                {% block  data %}
+
+                                {% for value in data  %}
+                                    <uL>
+                                        <li>
+                                                <a href="/singleAuction/{{ value.id }}"><b>{{ value.title }}</b></a>
+                                                <br>
+                                             {{ value.description }}
+                                                <br>
+                                               {% if currencyCode == 2 %}
+                                              Minimum Price: {{ value.minPrice}} UD Dollars
+                                            {% endif %}
+
+                                              {% if currencyCode == 3 %}
+                                              Minimum Price: {{ value.minPrice}} Euros
+                                            {% endif %}
+                                                <br>
+                                              Created by {{ value.auctionOwner }} on {{ value.creationDate }}
+                                        </li>
+                                        <br>
+                                        <hr>
+                                    </uL>
+                                {% endfor %}
+                           {% endblock %}
+
+                           </div>
+<hr>
+
+<div class="projectFooter">
+    By Rida Kamal
+</div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}
+    {% load i18n %}
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+</head>
+<body>
+
+<div class="projectTitle">
+    <h3>
+       {% trans "Yet Another Action Site for Abo Akademi University" %}
+
+    </h3>
+    <hr>
+    <br>
+    <h2>
+       {% trans "Auction Detail Page" %}
+    </h2>
+</div>
+
+<hr>
+<div class="linkClass">
+  {% if sign == 0 %}
+                <ul>
+
+                    <li><a href="/register/">Register</a></li>
+                    <li><a href="/login/">Login</a></li>
+
+
+
+                </ul>
+    {% endif %}
+
+    {% if sign == 1 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+                     <li><a href="/viewAllAuctions/">All Auctions</a></li>
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                     <li><a href="/convertCurrency/">Currency</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+    {% if sign == 2 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+                     <li><a href="/viewAllAuctions/">All Auctions</a></li>
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                    <li><a href="/convertCurrency/">Currency</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+</div>
+
+
+<hr>
+<br>
+<br>
+          <div>
+                                    <uL>
+                                        <li>
+
+                                                <a href=""><b>{{ data.title }}</b></a>
+                                                <br>
+                                             {{ data.description }}
+                                                <br>
+                                             {% if currencyCode == 2 %}
+                                              Minimum Price: {{data.minPrice}} UD Dollars
+                                            {% endif %}
+
+                                              {% if currencyCode == 3 %}
+                                              Minimum Price: {{ data.minPrice}} Euros
+                                            {% endif %}
+                                                <br>
+                                              Created by {{ data.auctionOwner }} on {{ data.creationDate }}
+                                                <br>
+                                              Deadline on {{ data.deadline }}
+                                        <div>
+
+                                        </div>
+                                             {% if sign == 1 %}
+                                                 <a href="/changeAuctionDetails/{{ data.id }}" method="get">Edit</a>
+                                             {% endif %}
+
+                                        </li>
+                                        <br>
+
+                                    </uL>
+                                    <br>
+             <hr>
+                                        <br>
+                                       <br>
+
+                                             {% if sign == 2 %}
+                                                 <br>
+                                                 <br>
+                                                <a href="/banAuction/{{ data.id }}" >Auction Ban</a>
+                                             {% endif %}
+          <br>
+                            <hr>
+
+                                <h3><b>Bids</b></h3>
+                                <hr>
+
+                                   <div id="bidsList"></div>
+
+                                    {% for bid in  bidData %}
+                                         <ul>
+                                            <li>
+                                                Bid Price: {{ bid.price }}
+                                                <br>
+                                                Bid by {{ bid.bidOwner }} Bid on {{ bid.createDate }}
+                                            </li>
+                                            <br>
+                                             <hr>
+                                        </ul>
+
+                                    {% endfor %}
+
+
+                        {% if  sign == 2 or sign == 1 %}
+                            <form action="/createBidding/{{ data.id }}"  method="post">
+                              {% csrf_token %}
+                               <div>
+                               <div>
+                                    <div>
+                                        <label for="bids" id="bidsLabel">Bids</label>
+                                          <div>
+                                              <input type="text" id="bids" placeholder="0.00" name="bid">
+                                          </div>
+                                    </div>
+                               </div>
+                               <br>
+                                   <span style="visibility: hidden;" id="auctionId" name="auctionId" >{{ data.id }}</span>
+
+                               <br>
+                               <div>
+                                    <div>
+                                        <button type="submit" id="loginButton">Bid</button>
+                                    </div>
+                               </div>
+
+
+                           </div>
+                          </form>
+                        {% endif %}
+
+
+
+                           </div>
+
+
+
+
+
+
+<div class="projectFooter">
+   <h4>
+       By Rida Kamal
+</h4>
+</div>
+</body>
+</html>

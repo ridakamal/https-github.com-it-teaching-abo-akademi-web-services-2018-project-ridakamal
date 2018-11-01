@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YaaS</title>
+{% load staticfiles %}
+
+    <link rel="stylesheet" href="{% static 'project.css'%}">
+</head>
+<body>
+
+<div class="projectTitle">
+    <h3>
+        Yet Another Action Site
+    </h3>
+    <hr>
+    <br>
+    <h2>
+        ALL Auctions
+    </h2>
+</div>
+
+<hr>
+<div class="linkClass">
+
+      {% if sign == 0 %}
+                <ul>
+
+                    <li><a href="/register/">Register</a></li>
+                    <li><a href="/login/">Login</a></li>
+
+
+
+                </ul>
+    {% endif %}
+
+    {% if sign == 1 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+                    <li><a href="/viewAllAuctions/">All Auctions</a></li>
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                     <li><a href="/convertCurrency/">Currency</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+    {% if sign == 2 %}
+                <ul>
+                    <li><a href="/viewMyAuctions/">My Auctions</a></li>
+                     <li><a href="/viewAllAuctions/">All Auctions</a></li>
+                    <li><a href="/searchAndBrowse/">Search Auction</a></li>
+                    <li><a href="/createAuction/">Create Auctions</a></li>
+                    <li><a href="/editProfile/">Edit Profile</a></li>
+                     <li><a href="/changeLanguage/">Language</a></li>
+                    <li><a href="/logOut/">Log Out</a></li>
+                </ul>
+    {% endif %}
+
+
+
+</div>
+
+ <div>
+
+                                    <form action="/changeAuctionDetails/{{ data.id }}" method="post">
+                                         {% csrf_token %}
+                                        <li>
+                                              Description:
+                                            <textarea name="description" cols="45" rows="20" >
+                                                {{ data.description }}
+                                            </textarea>
+
+
+                                        </li>
+                                        <br>
+                                          <button type="submit" id="editButton">Save</button>
+                                          <br>
+                                            <a href="/viewAllAuctions/">Cancel</a>
+                                        <hr>
+
+                                    </form>
+
+
+                           </div>
+<hr>
+
+<div class="projectFooter">
+    By Rida Kamal
+</div>
+</body>
+</html>
